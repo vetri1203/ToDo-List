@@ -1,0 +1,93 @@
+.createdtasks {
+    display: flex;
+    flex-direction: column;
+}
+
+span.taskTime {
+
+    margin-left: 75%;
+    padding-top: 8px;
+}
+
+span.task1 {
+    padding-top: 8px;
+    padding-left: 25px;
+}
+
+span.number{
+    padding-top: 8px;
+}
+
+button.deleteBtn {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    margin-left: 8%;
+    
+    border: none;
+}
+
+button.newbtn {
+
+    border: none;
+    /* font-weight: bold; */
+    background-color: rgb(0, 255, 60);
+    font-size: 16px;
+    block-size: 43px;
+    margin-top: 1%;
+}
+
+button.newbtn:hover {
+    background-color: rgb(0, 255, 60);
+    box-shadow: rgb(0, 255, 60) 0px 0px 3px 0px;
+}
+
+.deleteBtn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.sample {
+
+    display: flex;
+    margin-top: 15px;
+    padding: 25px;
+    color: rgb(11, 11, 11);
+    font: bold;
+    font-size: 20px;
+    background-color: rgb(162, 162, 164);
+    border: none;
+    border-radius: 5px;
+
+}
+
+.sample:hover {
+
+    box-shadow: #ccb3b3 0px 0px 15px 0px;
+    /* transition: s; */
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+}
+
+input.taskName {
+    padding: 9px;
+    border: none;
+    border-bottom: rgb(0, 255, 60);
+}
+input.taskName:hover{
+    border-bottom: rgb(0, 255, 60);
+}
+form button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* padding-top: 5px; */
+    background-color: rgb(0, 255, 60);
+    border: none;
+}
