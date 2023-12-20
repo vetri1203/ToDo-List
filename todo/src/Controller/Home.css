@@ -4,21 +4,25 @@
 }
 
 span.taskTime {
-
+    margin-top: 5px;
     margin-left: 75%;
-    padding-top: 8px;
+    /* padding-top: 8px; */
 }
 
 span.task1 {
     padding-top: 8px;
     padding-left: 25px;
+    /* margin-right: 25px; */
+        position: absolute;
 }
 
 span.number{
-    padding-top: 8px;
+    margin-top: 5px;
+    /* padding-top: 8px; */
 }
 
 button.deleteBtn {
+    margin-top: 5px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 8px;
@@ -81,7 +85,12 @@ input.taskName {
     border-bottom: rgb(0, 255, 60);
 }
 input.taskName:hover{
+    border: none;
     border-bottom: rgb(0, 255, 60);
+}
+form{
+    display: flex;
+    justify-content: center;
 }
 form button {
     padding: 10px;
@@ -91,3 +100,19 @@ form button {
     background-color: rgb(0, 255, 60);
     border: none;
 }
+
+.empty{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 20%;
+    color: #878383;
+
+    font-size: 25px;
+}
+
+/* .emptydiv{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+} */
